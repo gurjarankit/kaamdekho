@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/api/whoami": "pages/api/whoami.js",
+  "/blogs": "pages/blogs.html",
+  "/carousel": "pages/carousel.html",
+  "/compare-job": "pages/compare-job.html",
+  "/home": "pages/home.html",
+  "/home/jobDetail": "pages/home/jobDetail.html",
+  "/kam_dekho_wtsup": "pages/kam_dekho_wtsup.html",
+  "/_document": "pages/_document.js",
+  "/home/job": "pages/home/job.html",
+  "/": "pages/index.js",
+  "/404": "pages/404.html"
+}

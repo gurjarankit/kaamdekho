@@ -14,6 +14,8 @@ const path = require('path')
 const dashboard = require("./routes/api/dashboard");
 const getDataOnApi = require("./routes/api/getDataOnApi");
 
+require('dotenv').config()
+
 app.use("/api/dashboard",dashboard);
 app.use("/api/getDataOnApi",getDataOnApi);
 
@@ -68,6 +70,8 @@ if(process.env.NODE_ENV == 'production'){
         res.sendFile(path.resolve(__dirname,'frontend','.next','server','pages','index.html'));
     })
 }
+
+console.log("node env",process.env.NODE_ENV);
 
 app.use( (error, req, res, next) =>{
     res.status(error.status || 500);
